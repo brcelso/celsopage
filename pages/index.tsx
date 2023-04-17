@@ -9,7 +9,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>Next.js</title>
+        <title>Celso da Silva Junior</title>
         <meta
           name="description"
           content="Next.js template for building apps with Radix UI and Tailwind CSS"
@@ -20,8 +20,8 @@ export default function IndexPage() {
       <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
           <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
-            Beautifully designed components <br className="hidden sm:inline" />
-            built with Radix UI and Tailwind CSS.
+            Welcome to New Age !!! <br className="hidden sm:inline" />
+            built with Radix UI and Tailwind CSS by brcelso.
           </h1>
           <p className="max-w-[700px] text-lg text-slate-700 dark:text-slate-400 sm:text-xl">
             Accessible and customizable components that you can copy and paste
@@ -44,6 +44,38 @@ export default function IndexPage() {
             className={buttonVariants({ variant: "outline", size: "lg" })}
           >
             GitHub
+          </Link>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={siteConfig.links.vercel}
+            className={buttonVariants({ variant: "outline", size: "lg" })}
+          >
+            Vercel
+          </Link>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={siteConfig.links.whatsapp}
+            className={buttonVariants({ variant: "outline", size: "lg" })}
+          >
+            WhatsApp
+          </Link>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={siteConfig.links.instagram}
+            className={buttonVariants({ variant: "outline", size: "lg" })}
+          >
+            Instagram
+          </Link>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={siteConfig.links.twitter}
+            className={buttonVariants({ variant: "outline", size: "lg" })}
+          >
+            Twitter
           </Link>
         </div>
       </section>

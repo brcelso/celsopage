@@ -8,6 +8,9 @@ interface SiteConfig {
     twitter: string
     github: string
     docs: string
+    instagram: string
+    vercel: string
+    whatsapp: string
   }
 }
 
@@ -25,5 +28,8 @@ export const siteConfig: SiteConfig = {
     twitter: "https://twitter.com/shadcn",
     github: "https://github.com/shadcn/ui",
     docs: "https://ui.shadcn.com",
+    instagram: "https://instagram.com/celsosilvabr",
+    vercel: "https://vercel.com/brcelso",
+    whatsapp: "https://wa.me/5511972509876"
   },
 }
