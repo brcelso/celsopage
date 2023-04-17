@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/juCa1405",
+    twitter: "https://twitter.com/juCa0514",
     github: "https://github.com/brcelso",
     docs: "https://ui.shadcn.com",
     instagram: "https://instagram.com/celsosilvabr",
