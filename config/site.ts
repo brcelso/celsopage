@@ -30,6 +30,6 @@ export const siteConfig: SiteConfig = {
     docs: "https://ui.shadcn.com",
     instagram: "https://instagram.com/celsosilvabr",
     vercel: "https://vercel.com/brcelso",
-    whatsapp: "https://wa.me/5511972509876"
+    whatsapp: "https://wa.me/5511953340640"
   },
 }
