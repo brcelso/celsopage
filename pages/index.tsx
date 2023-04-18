@@ -28,7 +28,7 @@ export default function IndexPage() {
             Accessible and customizable components that you can copy and paste
             into your apps. Free. Open Source.{" "}
             <span className="font-semibold">
-              Use this to build your own component library.
+              Use this to build your own component library
             </span>
             .
           </p>
